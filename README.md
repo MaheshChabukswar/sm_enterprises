@@ -132,8 +132,8 @@ Embarking on the "SM Enterprises" project within a 40-day timeframe, while simul
 - **User Feedback & Improvements** – Gather feedback for future updates. 
 
 # Figma(Ui/UX) Design:
-![page01](Public\Assets\Artifacts\Ui_01.jpg)
-![page02](Public\Assets\Artifacts\Ui_02.jpg)
+![page01](Public/Assets/Artifacts/UI_01.png)
+![page02](Public/Assets/Artifacts/UI_02.png)
 
 # Installation
 To start the project, follow these steps:

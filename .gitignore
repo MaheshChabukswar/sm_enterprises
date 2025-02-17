@@ -1,0 +1,29 @@
+# Node modules
+/node_modules/
+
+# Build output
+/dist/
+/build/
+
+# Vite cache
+/.vite/
+
+# Tailwind CSS
+# (optional) If you are using a PostCSS configuration file, ignore the config file if you want
+/postcss.config.js
+
+# IDE and Editor files
+.vscode/
+/.idea/
+
+# Log files
+*.log
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# .env file for environment variables
+.env
+.env.local
+.env.*.local

@@ -1,5 +1,5 @@
 {
-  "name": "SM_ENTERPRISES",
+  "name": "tailwindcss",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -10,5 +10,11 @@
   },
   "devDependencies": {
     "vite": "^6.1.0"
+  },
+  "dependencies": {
+    "@tailwindcss/vite": "^4.0.6",
+    "autoprefixer": "^10.4.20",
+    "postcss": "^8.5.2",
+    "tailwindcss": "^4.0.6"
   }
 }

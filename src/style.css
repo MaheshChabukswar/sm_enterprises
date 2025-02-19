@@ -1,3 +1,30 @@
 /* Import Tailwind's preflight, components, and utilities */
 @import "tailwindcss";
 /* Your custom styles below */
+
+
+
+.intro_img{
+    width: 100%;
+    height: 100%;
+    
+}   
+
+#img_collection{
+    
+    
+display: grid;
+    width: 500px; 
+  height: 300px; 
+  grid-template-columns: repeat(2, 1fr); 
+  grid-template-rows: repeat(2, 1fr); 
+  column-gap: 15px;
+  row-gap: 15px;
+  margin-top: 20px;
+  }
+
+  #img_collection ul img{
+    border-radius: 30px;
+  }
+
+  

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Centered Text with Horizontal Lines</title>
+    <style>
+        .container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 100%;
+            margin-top: 50px;
+        }
+
+        .text-with-lines {
+            font-size: 20px;
+            font-weight: bold;
+            position: relative;
+            text-transform: uppercase;
+        }
+
+        .text-with-lines::before,
+        .text-with-lines::after {
+            content: "";
+            width: 100px;
+            height: 2px;
+            background-color: #333;
+            display: inline-block;
+            margin: 0 20px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="container">
+        <p class="text-with-lines">Centered Text</p>
+    </div>
+
+
+</body>
+
+</html>

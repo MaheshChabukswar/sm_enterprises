@@ -6,63 +6,335 @@
   <link rel="icon" type="image/svg+xml" href="/vite.svg" />
   <link rel="stylesheet" href="src/style.css">
 
-
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Vite App</title>
+  <title>SM Enterprises</title>
 </head>
 
-<body class="m-0">
-  <header class="text-5xl  font-bold ml-40 mt-5 mb-10">
-    <h3 class="text-blue-850 ">SM <span class="text-blue-400 ">Enterprises</span></h3>
-  </header>
-  <div id="root" class="w-full h-full">
-    <section id="first_section" class="flex">
-      <div id="first_left_part" class="text-justify w-1/2  pl-40 pr-40  border-r-2 border-gray-500">
+<body>
+  <!-- Global Container -->
+  <div class="global-size bg-amber-50">
+    <!-- Top Banner -->
+    <div class="flex justify-between w-full">
+      <a href="#"><img src="public/Assets/SMEnterprises-logo.png" alt="Official Logo" class="w-100 h-30"></a>
 
-        <p class="text-blue-950 text-4xl font-extrabold  leading-12 border-l-8 border-blue-400  pl-3">SM Enterprises
-          offers fast, reliable, and hassle-free online services for <span class="text-blue-600">PAN</span>, <span
-            class="text-blue-600">Aadhar</span>, <span class="text-blue-600"> PF</span>, <span
-            class="text-blue-600">ShopAct</span>, and other documents, with expert processing and quick turnaround
-          times.
+      <div class="flex justify-center items-center gap-5 pr-15">
+        <a href="#"
+          class="bg-blue-400 text-white pt-2 pb-2 pl-5 pr-5 rounded-2xl font-extrabold hover:bg-blue-300">Contact</a>
+        <a href="#" class="bg-blue-400 text-white pt-2 pb-2 pl-5 pr-5 rounded-2xl font-extrabold hover:bg-blue-300">Help
+          Desk</a>
+      </div>
+    </div>
+
+    <!-- Milestone Section -->
+    <div class="flex w-full pt-15">
+      <!-- Milestone-Left -->
+      <div class="w-1/2 pr-5">
+        <p class=" font-extrabold text-5xl leading-normal">
+          <span class="text-blue-950">Get </span>
+          <span class="text-blue-500">best offers and reliable online service-containers for</span>
+          <span class="text-blue-950">ITR, GST, PAN, INSURANCE, FSSAI, SHOPACT, UDYAM, RTO, PASSPORT</span>
         </p>
-        <br>
-        <span class=" font-bold italic text-5xl bg-blue-200  pl-5 pr-5 ml-3"> Why Choose Us?</span>
-        <ol class="leading-12 text-3xl font-bold ml-3">
-          <a href="https://tailwindcss.com/docs/flex-direction">
-            <p class=""> Guaranteed Services:</p>
-          </a>
-          <a href=" https://tailwindcss.com/docs/flex-direction">
-            <p class=""> Secure and Safe:</p>
-          </a>
-          <a href="https://tailwindcss.com/docs/flex-direction">
-            <p class=""> Customer-Centric Approach:</p>
-          </a>
-        </ol>
+        <div class="leading-12 text-2xl">
+          <p><i class="fa-solid fa-square-check"></i> 500+ well skilled and expert staff</p>
+          <p><i class="fa-solid fa-square-check"></i> Best discount price and authentic
+            service-containers
+          </p>
+          <p><i class="fa-solid fa-square-check"></i> 10000+ satisfied customers</p>
+          <p class="text-2xl  bg-gray-200 p-2 rounded-2xl mb-5 inline-block mt-2.5">
+            <span class="font-bold">Best suitable for:</span>
+            <span>All types of customers</span>
+          </p>
+        </div>
+        <a href="#" class="registration-btn">Register to GET more details</a>
       </div>
-      <div id="first_right_part" class="relative left-80">
-        <span class="bg-amber-200 text-3xl ml-6 font-bold pl-2 pr-2">Online Multi-Services Provider</span>
-        <br>
-        <li id="img_collection">
-          <ul><img src="Assets/Fssai.jpg" alt="FSSAI" class="intro_img"></ul>
-          <ul><img src="Assets/Income-Tax-Department.jpg" alt="Income-Tax" class="intro_img"></ul>
-          <ul><img src="Assets/passport.jpg" alt="Passport" class="intro_img"></ul>
-          <ul><img src="Assets/RTO.jpg" alt="PF" class="intro_img"></ul>
-        </li>
-      </div>
-    </section>
+      <!-- Milestone-Right -->
 
-    <main>
-      <section>
-        <div class="h-200 bg-gray-400 ml-50 mr-50 mt-20">
-          <div class="h-200 border-l-20 border-t-20 border-b-20 border-r-20 border-gray-600 mt-40 mb-40">
-            <p>Get Best Discount....!</p>
+      <div class="w-1/2 flex flex-col justify-center items-center">
+        <img src=" public/Assets/Profession.png" alt="">
+        <br>
+        <p class="text-2xl font-extrabold">Online Documents Consultancy</p>
+      </div>
+    </div>
+
+
+    <!-- Hero Section -->
+    <div>
+      <div class="mt-20 mb-10">
+        <p class="service-heading-with-line">CUNSULT SERVICES</p>
+      </div>
+
+      <div class="w-full grid grid-cols-4 place-items-center gap-y-25">
+
+        <!-- PAN -->
+        <div>
+          <a href="#" class="flex flex-col service-container">
+            <img src="public/Assets/PAN.png" alt="PAN">
+            <p class="text-3xl font-bold">PAN/TAN</p>
+          </a>
+        </div>
+        <!--GST-->
+        <div>
+          <a href="#" class="flex flex-col service-container">
+            <img src="public/Assets/GST.png" alt="GST">
+            <p class="text-3xl font-bold">PAN/TAN</p>
+          </a>
+        </div>
+        <!-- ITR File -->
+        <div>
+          <a href="#" class="flex flex-col service-container">
+            <img src="public/Assets/ITR.png" alt="ITR">
+            <p class="text-3xl font-bold">ITR File</p>
+          </a>
+        </div>
+        <!-- FOOD LICIENCE -->
+        <div>
+          <a href="#" class="flex flex-col service-container">
+            <img src="public/Assets/FSSAI LOGO.png" alt="FSSAI">
+            <p class="text-3xl font-bold">FSSAI LICENCE</p>
+          </a>
+        </div>
+        <!--UDYAM-->
+        <div>
+          <a href="#" class="flex flex-col service-container">
+            <img src="public/Assets/UDYAM.png" alt="UDYAM">
+            <p class="text-3xl font-bold">UDYAM REGISRTATION</p>
+          </a>
+        </div>
+        <!-- SHOPACT -->
+        <div>
+          <a href="#" class="flex flex-col service-container">
+            <img src="public/Assets/Shopact.png" alt="SHOPACT">
+            <p class="text-3xl font-bold">SHOPACT LICENCE</p>
+          </a>
+        </div>
+        <!-- MEDICAL LICENCE -->
+        <div>
+          <a href="#" class="flex flex-col service-container">
+            <img src="public/Assets/Medical Licence.png" alt="MEDICAL LICENCE">
+            <p class="text-3xl font-bold">MEDICAL LICENCE</p>
+          </a>
+        </div>
+
+
+        <!--POLICE VERIFICATION-->
+        <div>
+          <a href="#" class="flex flex-col service-container">
+            <img src="public/Assets/Police.png" alt="POLICE VER">
+            <p class="text-3xl font-bold">POLICE VERIFICATION</p>
+          </a>
+        </div>
+        <!-- PASSPORT -->
+        <div>
+          <a href="#" class="flex flex-col service-container">
+            <img src="public/Assets/Passport.png" alt="PASSPORT">
+            <p class="text-3xl font-bold">PASSPORT</p>
+          </a>
+        </div>
+        <!-- PF WORK -->
+        <div>
+          <a href="#" class="flex flex-col service-container">
+            <img src="public/Assets/EPF.png" alt="EMPLOYEE PF">
+            <p class="text-3xl font-bold">EMPLOYEE PF</p>
+          </a>
+        </div>
+        <!--VOTER ID-->
+        <div>
+          <a href="#" class="flex flex-col service-container">
+            <img src="public/Assets/Voter Id.png" alt="VOTER ID">
+            <p class="text-3xl font-bold">VOTER ID</p>
+          </a>
+        </div>
+
+
+        <!-- RTO WORK -->
+        <div>
+          <a href="#" class="flex flex-col service-container">
+            <img src="public/Assets/RTO.png" alt="RTO">
+            <p class="text-3xl font-bold">RTO WORK</p>
+          </a>
+        </div>
+        <!--Insurance-->
+        <div>
+          <a href="#" class="flex flex-col service-container">
+            <img src="public/Assets/Insurance.png" alt="INSURANCE">
+            <p class="text-3xl font-bold">INSURANCE</p>
+          </a>
+        </div>
+        <!-- TICKET BOOKING -->
+        <div>
+          <a href="#" class="flex flex-col service-container">
+            <img src="public/Assets/Ticket Book.png" alt="EMPLOYEE PF">
+            <p class="text-3xl font-bold">TICKET BOOKING</p>
+          </a>
+        </div>
+      </div>
+    </div>
+
+
+    <!-- Stats Section or  -->
+    <div class="main-stats mt-50">
+      <div class="sub-stats">
+        <div class="box-stats">
+          <p class="stats-content1">Experts</p>
+          <p class="stats-content2">200+ Expertise Staff</p>
+        </div>
+        <div class="box-stats">
+          <p class="stats-content1">Promptness</p>
+          <p class="stats-content2">Fast service-container | Responsible</p>
+        </div>
+        <div class="box-stats">
+          <p class="stats-content1">Secure</p>
+          <p class="stats-content2"> Data Secure and Safe Responsible</p>
+        </div>
+
+      </div>
+      <div class="sub-stats">
+        <div class="box-stats">
+          <p class="stats-content1">Clients</p>
+          <p class="stats-content2">10000+</p>
+        </div>
+        <div class="box-stats">
+          <p class="stats-content1">Execution</p>
+          <p class="stats-content2">15000+</p>
+        </div>
+        <div class="box-stats">
+          <p class="stats-content1">Discount</p>
+          <p class="stats-content2">Get discount of 30% or More</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Global Container End-->
+
+
+  <!--Main Footer -->
+  <div class=" bg-sky-950 mt-24 h-96">
+
+    <!-- Footer Services -->
+    <div class="global-size text-white flex justify-between">
+
+      <div>
+        <div class="footer-services">SERVICES</div>
+        <div class="footer-services-content">
+          <div class="flex flex-col">
+            <a href="#">PAN/TAN</a>
+            <a href="#">GST Registration</a>
+            <a href="#">File ITR</a>
+            <a href="#">Food Licience</a>
+            <a href="#">Udyam Registration</a>
+            <a href="#">Shopact</a>
+            <a href="#">Medical Licence</a>
+          </div>
+          <div class="flex flex-col">
+            <a href="#">Police Verification</a>
+            <a href="#">Passport</a>
+            <a href="#">PF Work</a>
+            <a href="#">Voter ID</a>
+            <a href="#">RTO Work</a>
+            <a href="#">Insurance</a>
+            <a href="#">Tickets Booking</a>
           </div>
         </div>
-      </section>
-    </main>
+      </div>
+
+      <!-- Footer Discount-->
+      <div>
+        <div class=" footer-discount">DISCOUNT</div>
+        <div>
+          <div class="footer-discount-content">
+            <a href="#">Charges Menu</a>
+            <a href="#">Get avg Discount</a>
+            <a href="#">Get Max Discount</a>
+          </div>
+        </div>
+
+      </div>
+      <!-- Footer About -->
+      <div>
+        <div class=" footer-about ">ABOUT </div>
+        <div class="footer-about-content">
+          <a href="#">About us</a>
+          <a href="#">Why Us</a>
+          <a href="#">Reviews</a>
+          <a href="">Instructions</a>
+          <a href="">FAQs</a>
+          <a href="">Data Security</a>
+        </div>
+      </div>
+
+      <!-- Footer Contact -->
+      <div>
+        <div class="footer-contact ">CONTACT </div>
+        <!-- Address + Mobile No -->
+        <div class="footer-contact-content">
+          <!-- Address -->
+          <div>
+            <p class="font-bold text-3xl"><i class="fa-solid fa-location-dot"></i> :</p>
+            <p>Pashan, Pune- Maharashtra </p>
+            <p>pin - 412115, India</p>
+          </div>
+
+          <!-- Mobile No -->
+          <div class="flex flex-col-1 gap-2 mt-5">
+            <div>
+              <p class="font-bold text-3xl"><i class="fa-solid fa-phone-volume"></i> : </p>
+            </div>
+            <div>
+              <p>+91 7387139859</p>
+              <p>+91 7057982913</p>
+            </div>
+          </div>
+          <!-- Gmail -->
+          <div class="mt-5 flex gap-3">
+            <span class="font-bold text-3xl "> <i class="fa-solid fa-envelope"></i> :</span>
+            <a class="flex justify-center items-center gap-2" href="#">
+              <span>smenterprises@gmail.com</span>
+            </a>
+          </div>
+        </div>
+
+      </div>
+
+
+
+    </div>
+  </div>
+
+  <!-- Sub-footer -->
+  <div class="bg-blue-300 p-5 ">
+    <div class=" flex gap-40 justify-center">
+      <div class="flex gap-20">
+        <a href="#">
+          <p>Privacy Policy</p>
+        </a>
+        <a href="#">
+          <p>Terms & Conditions</p>
+        </a>
+        <a href="#">
+          <p>Security Informations</p>
+        </a>
+      </div>
+      <div class="flex gap-30 text-2xl">
+        <a href="#">
+          <p><i class="fa-brands fa-linkedin"></i></p>
+        </a>
+        <a href="#">
+          <p><i class="fa-brands fa-instagram"></i></p>
+        </a>
+        <a href="#">
+          <p><i class="fa-brands fa-whatsapp"></i></p>
+        </a>
+      </div>
+    </div>
 
   </div>
   </div>
+
+
+
+  <script src="https://kit.fontawesome.com/2eff18e9d9.js" crossorigin="anonymous"></script>
+
 </body>
 
 </html>
